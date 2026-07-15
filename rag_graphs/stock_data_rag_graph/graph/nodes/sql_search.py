@@ -62,4 +62,3 @@ def sql_fetch_query(state:GraphState) -> Dict[str, Any]:
     sql_results             = execute_query(sql_query)
 
     return {"sql_results": sql_results, "sql_query": sql_query}
-
