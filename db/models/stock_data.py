@@ -22,4 +22,4 @@ class StockData(Base):
     high = Column(Float)
     low = Column(Float)
     close = Column(Float)
-    volume = Column(BigInteger)
+    volume = Column(BigInteger)

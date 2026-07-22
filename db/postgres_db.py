@@ -147,4 +147,4 @@ class PostgresDBClient:
             self.execute_query(query, params)
         except Exception as e:
             logger.error(f"Error in DELETE operation: {e}")
-            raise
+            raise
